@@ -1,0 +1,43 @@
+{
+  "name": "kt-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:kt-design": "gulp -f ./packages/components/scripts/build.js",
+    "publish:kt-design": "gulp -f ./packages/components/scripts/publish.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "cli",
+    "docs",
+    "example"
+  ],
+  "dependencies": {
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "eslint": "^8.53.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "gulp": "^4.0.2",
+    "release-it": "^16.2.1",
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-tsc": "^1.8.22"
+  }
+}

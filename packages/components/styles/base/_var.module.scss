@@ -1,0 +1,7 @@
+$brand-color-7: var(--brand-color-7, #0052d9);
+
+$primary-color: $brand-color-7;
+
+:export {
+  primaryColor: $primary-color;
+}

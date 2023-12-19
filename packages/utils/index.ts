@@ -1,0 +1,1 @@
+export { default as testLog } from './src/test-log'

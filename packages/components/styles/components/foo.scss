@@ -1,0 +1,12 @@
+@import "../tools";
+@import "../acss/_mp";
+@import "../base/var.module";
+
+@include block('kt-foo') {
+  color: $primary-color;
+
+  @include element('description') {
+    color: #333;
+    @extend .mv-20;
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "kt-design",
+  "private": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "files": [
+    "es",
+    "lib",
+    "styles"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kt-design/utils": "workspace:^",
+    "vite-plugin-dts": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "gulp": "^4.0.2",
+    "rimraf": "^5.0.5"
+  },
+  "typings": "lib/index.d.ts"
+}
